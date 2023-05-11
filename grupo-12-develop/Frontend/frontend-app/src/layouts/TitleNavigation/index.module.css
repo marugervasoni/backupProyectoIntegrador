@@ -1,0 +1,28 @@
+.header {
+  height: 8vh;
+  padding: 0.8rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--gray-color);
+  color: var(--white-color);
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.headerCategory {
+  font-size: 0.8rem;
+}
+
+.headerName {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.backIcon {
+  height: 100%;
+  font-size: 2.5rem;
+}

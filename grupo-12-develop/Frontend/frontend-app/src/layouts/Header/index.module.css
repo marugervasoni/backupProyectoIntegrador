@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 80px;
+  background-color: #ffffff;
+  padding: 0 5%;
+}
+
+.buttons {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+@media (max-width: 600px) {
+  .buttons {
+    display: none;
+  }
+}

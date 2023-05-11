@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "img": "https://images.unsplash.com/photo-1606046604972-77cc76aee944?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    "category": "Hotel",
+    "title": "Hotel Hilton",
+    "location": " Buenos aires",
+    "description": "Este moderno hotel con un impresionante atrio se encuentra en el lujoso distrito de Puerto Madero, a 12 minutos a pie de la histórica plaza de Mayo y a 3.1 km del Museo de Arte Moderno"
+  },
+
+  {
+    "id": "2",
+    "img": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    "category": "Hotel",
+    "title": "Hotel Cartagena plaza ",
+    "location": " Cartagena",
+    "description": "Este hotel tranquilo se encuentra frente a la playa Bocagrande, en el mar Caribe, a 3 km de la animada plaza de Santo Domingo y a 8 km del aeropuerto"
+  },
+
+  {
+    "id": "3",
+    "img": "https://images.unsplash.com/photo-1541379119855-2078576bb41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "category": "Hostels",
+    "title": "Hostels oasis  ",
+    "location": " Mendoza",
+    "description": "Hostal tranquilo con dormitorios y habitaciones privadas, clases de español y de baile, y desayuno incluido."
+  },
+
+  {
+    "id": "4",
+    "img": "https://images.unsplash.com/photo-1553369728-15ec6971afaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "category": "Hostels",
+    "title": "Casa Hostal",
+    "location": " Bogota",
+    "description": "Hostal simple, dormitorios y habitaciones privadas con decoración sencilla y terrazas."
+  },
+
+  {
+    "id": "5",
+    "img": "https://media.istockphoto.com/id/1384642884/es/foto/el-sol-de-la-tarde-se-refleja-en-la-moderna-fachada-de-vidrio-con-balcones-dsc07504-kopie.jpg?s=612x612&w=0&k=20&c=MRHSUaZ9G2kDilBHId2bBvISiwBgovKXCkW48jaCo1c=",
+    "category": "Departamentos",
+    "title": "El peñon",
+    "location": " Santa Marta",
+    "description": "El Edificio El Peñón del Rodadero se encuentra en Santa Marta y ofrece vistas a la ciudad, piscina al aire libre, jardín, salón compartido, terraza y pista de tenis. "
+  },
+
+  {
+    "id": "6",
+    "img": "https://images.unsplash.com/photo-1600288464449-6d0dd7465fef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "category": "Departamentos",
+    "title": "Tendillas",
+    "location": " Cordoba",
+    "description": "Los Apartamentos Tendillas ofrecen alojamiento con WiFi gratuita en el centro de Córdoba, a 600 metros de la mezquita de Córdoba y a 11 km de Medina Azahara."
+  },
+
+  {
+    "id": "7",
+    "img": "https://images.unsplash.com/photo-1618111415065-c20b4e1afd41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "category": "Bed and breakfast",
+    "title": "Palermo Viejo",
+    "location": " Buenos aires",
+    "description": "Bed and breakfast tranquilo ubicado a 4 minutos a pie de las tiendas de la avenida Córdoba, a 3 km del jardín japonés de Buenos Aires y a 6 km del Teatro Colón"
+  },
+
+  {
+    "id": "8",
+    "img": "https://images.unsplash.com/photo-1597776776684-61122dcf84e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=466&q=80",
+    "category": "Bed and breakfast",
+    "title": "Casa Hogar Home Sweet Home",
+    "location": " Bogota",
+    "description": "Reservación de Casa Hogar Home Sweet Home en línea en Bogotá, Colombia. Mire las opiniones de huéspedes reales para elegir la habitación mejor."
+  }
+]

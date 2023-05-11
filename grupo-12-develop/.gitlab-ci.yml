@@ -1,0 +1,155 @@
+cache:
+  paths:
+    - Frontend/fontend-app/node_modules
+
+stages:   
+  - build
+  # - test
+  - deploy
+
+
+# FRONTEND
+
+.npm_build:                        #Class for build and extend to the differents frontend environments
+  image: node
+  script:
+    - echo "Start building App"
+    - cd Frontend
+    - cd frontend-app
+    - npm install --force
+    - npm run build
+    - echo "Build successfully!"
+  artifacts:
+    paths:
+      - ./Frontend/frontend-app/build
+
+build_frontend_prod:                  # STAGE 1: Build the project frontend in PRODUCTION
+  extends: .npm_build
+  stage: build 
+  only:
+    refs:
+      - main
+    changes:
+      - Frontend/**/*
+
+build_frontend_dev:                  # STAGE 1: Build the project frontend in DEVELOPMENT
+  extends: .npm_build
+  stage: build 
+  only:
+    refs:
+      - develop
+    changes:
+      - Frontend/**/*
+
+
+s3-deployment-prod:                        # STAGE 3: deploy the app to AWS S3 PRODUCTION
+  stage: deploy
+  needs: [build_frontend_prod]
+  image: python:latest
+  script:
+    - echo "deploying app"
+    - echo "installing aws command line"
+    - pip install awscli
+    - aws --version
+    - echo "Extracting the production build"
+    - echo "Uploading files to AWS Bucket"
+    - aws s3 sync ./Frontend/frontend-app/build s3://$PROD_S3_BUCKET/
+  only:
+    refs:
+      - main
+    changes:
+      - Frontend/**/*
+
+s3-deployment-dev:                        # STAGE 3: deploy the app to AWS S3 DEVELOPMENT
+  stage: deploy
+  needs: [build_frontend_dev]
+  image: python:latest
+  script:
+    - echo "deploying app"
+    - echo "installing aws command line"
+    - pip install awscli
+    - aws --version
+    - echo "Extracting the production build"
+    - echo "Uploading files to AWS Bucket"
+    - aws s3 sync ./Frontend/frontend-app/build s3://$DEV_S3_BUCKET/
+  only:
+    refs:
+      - develop
+    changes:
+      - Frontend/**/*
+  needs: 
+    - job: build_frontend_dev
+      artifacts: true
+
+# ----------------------------------------------------BACKEND----------------------------------------------------------
+
+
+.mvn_build:                 # STAGE 1: Build the project backend in develop
+  image:  maven:latest
+  script:
+    - echo "Building app..."
+    - cd Backend/booking/
+    - mvn clean install
+    - echo "Finished building the app."
+  artifacts:
+    paths:
+      - Backend/booking/target/*.jar
+
+build_backend_dev:                 # STAGE 1: Build the project backend in DEVELOPMENT
+  extends: .mvn_build
+  stage: build
+  only:
+    refs:
+      - develop
+    changes:
+      - Backend/**/*
+
+build_backend_prod:                 # STAGE 1: Build the project backend in PRODUCTION
+  extends: .mvn_build
+  stage: build
+  only:
+    refs:
+      - main
+    changes:
+      - Backend/**/*
+
+ec2-deployment_prod:                  # STAGE 3: Deploy the app to EC2 instance PRODUCTION
+  stage: deploy
+  needs: ["build_backend_prod"]
+  before_script:
+    - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -H $DEPLOY_PROD_SERVER_IP >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+  script:
+    - scp -o StrictHostKeyChecking=no Backend/booking/target/*.jar $USER_PROD@$DEPLOY_PROD_SERVER_IP:/home/ubuntu/
+    - ssh -o StrictHostKeyChecking=no $USER_PROD@$DEPLOY_PROD_SERVER_IP "/home/ubuntu/scripts/restart.sh"
+  only:
+    refs:
+      - main
+    changes:
+      - Backend/**/*
+
+ec2-deployment_dev:                  # STAGE 3: Deploy the app to EC2 instance DEVELOPMENT
+  stage: deploy
+  needs: ["build_backend_dev"]
+  before_script:
+    - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -H $DEPLOY_DEV_SERVER_IP >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+  script:
+    - scp -o StrictHostKeyChecking=no Backend/booking/target/*.jar $USER_DEV@$DEPLOY_DEV_SERVER_IP:/home/ec2-user/
+    - ssh -o StrictHostKeyChecking=no $USER_DEV@$DEPLOY_DEV_SERVER_IP "/home/ec2-user/scripts/restart.sh"
+  only:
+    refs:
+      - develop
+    changes:
+      - Backend/**/*
+      

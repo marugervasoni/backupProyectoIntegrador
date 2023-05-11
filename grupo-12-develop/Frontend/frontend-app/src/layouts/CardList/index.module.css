@@ -1,0 +1,19 @@
+.cardList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 10px;
+  width: 90%;
+  justify-items: center;
+}
+
+.containerCardList {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .cardList {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,24 @@
+URL: http://localhost:8080/user/create
+Method: POST
+
+Request:
+
+{
+    "name": "Angela",
+    "lastname": "Martines",
+    "email": "angelmr01@gmail.com",
+    "password": "angelamr01",
+    "city" : {
+        "id" :4
+    }
+}
+
+Response:
+
+{
+    "status": 201,
+    "message": "user created successfully",
+    "data": null
+}
+
+

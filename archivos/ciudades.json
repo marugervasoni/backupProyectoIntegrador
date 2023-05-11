@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "nombre":"Villa Carlos PAz",
+        "provincia": "Córdoba",
+        "pais":"Argentina"
+    },
+    {
+        "id":2,
+        "nombre":"Puerto Iguazú",
+        "provincia": "Misiones",
+        "pais":"Argentina"
+    },
+    {
+        "id":3,
+        "nombre":"Mar del Plata",
+        "provincia": "Buenos Aires",
+        "pais":"Argentina"
+    },
+    {
+        "id":4,
+        "nombre":"San Rafael",
+        "provincia": "Mendoza",
+        "pais":"Argentina"
+    },
+    {
+        "id":5,
+        "nombre":"Cafayate",
+        "provincia": "Salta",
+        "pais":"Argentina"
+    },
+    {
+        "id":6,
+        "nombre":"Colón",
+        "provincia": "Entre Ríos",
+        "pais":"Argentina"
+    },
+    {
+        "id":7,
+        "nombre":"Merlo",
+        "provincia": "San Luis",
+        "pais":"Argentina"
+    },
+    {
+        "id":8,
+        "nombre":"San Carlos de Bariloche",
+        "provincia": "Rio Negro",
+        "pais":"Argentina"
+    }    
+]

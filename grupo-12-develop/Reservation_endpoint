@@ -1,0 +1,126 @@
+URL: http://localhost:8080/reservation/create
+Method: POST
+
+Request:
+
+{
+    "hour" : "10:49",
+    "startDate" : "2023-02-15",
+    "endDate": "2023-02-20",
+    "user": {
+        "id" : 2
+    },
+    "product": {
+        "id": 3
+    } 
+}
+
+Response:
+
+{
+    "status": 200,
+    "message": "Reservation created successfully",
+    "data": null
+}
+
+
+Nota: El usuario debe estar autenticado para poder crear la reserva.
+
+Autenticación Tipo Bearer + JWT.
+
+
+*************************************************************************************************************
+
+URL: http://localhost:8080/reservation/{id}
+Method: GET
+
+Response:
+
+{
+    "status": 200,
+    "message": "Get Reservation successfully",
+    "data": {
+        "id": 6,
+        "hour": "10:49",
+        "startDate": "2023-02-14",
+        "endDate": "2023-02-19",
+        "product": {
+            "id": 1,
+            "city": {
+                "id": 1,
+                "name": "Buenos Aires",
+                "country": {
+                    "id": 1,
+                    "name": "Argentina"
+                }
+            },
+            "politic": {
+                "id": 1,
+                "rule": {
+                    "id": 1,
+                    "title": null,
+                    "description": "Se permiten mascotas de compañia"
+                },
+                "security": {
+                    "id": 1,
+                    "title": "Seguridad",
+                    "description": "Seguridad 24/7"
+                },
+                "cancellation": {
+                    "id": 1,
+                    "title": "Tiempo",
+                    "description": "Puede cancelar su recepción mínimo con 10 días de anticipación."
+                }
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "title": "image1",
+                    "url": "htts://google.com/url1"
+                },
+                {
+                    "id": 2,
+                    "title": "image2",
+                    "url": "htts://google.com/url2"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "title": "Hotel",
+                "description": "n hostel es un tipo de alojamiento económico en el que poder compartir experiencias sociales",
+                "imageUrl": "https://unsplash.com/it/foto/WQJvWU_HZFo"
+            },
+            "characteristic": {
+                "id": 1,
+                "kitchen": true,
+                "tv": true,
+                "conditionAir": true,
+                "petsAllowed": true,
+                "freeParking": true,
+                "pool": true,
+                "wifi": true
+            },
+            "title": "Hoteleria",
+            "description": "Description",
+            "availability": "availability"
+        },
+        "user": {
+            "id": 1,
+            "name": "Carlos",
+            "lastname": "Mendoza",
+            "email": "carlosmendoza95@gmail.com",
+            "password": "$2a$10$VuWllcmJS7oXhACsElh52u5jwlZS3AU4mL3QgkfqyxXQYzHwLdwyC",
+            "city": {
+                "id": 6,
+                "name": "Buenos Aires",
+                "country": {
+                    "id": 1,
+                    "name": "Argentina"
+                }
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "crimg":"https://unsplash.com/es/fotos/emqnSQwQQDo",
+        "category":"hotel",
+        "title":"Hoteles",
+        "description":"En un hotel tenés cero preocupaciones. Disfrutá dejar en las manos de otros la limpieza, el orden y, en algunos casos, incluso una o más comidas. Generalmente son muy seguros y poseen varias formas de pago. Además, los hoteles suelen contar con servicios extra que pueden serte útiles para tu viaje, como traslado al aeropuerto y estacionamiento."
+    },
+    {
+        "id":2,
+        "crimg":"https://unsplash.com/es/fotos/KTSYy-3XVSo",
+        "category":"hostel",
+        "title":"Hostels",
+        "description":"Un hostel es un negocio que ofrece servicio de alojamiento en habitaciones compartidas. Los dormitorios están integrados por varias camas. Por ello, es la elección perfecta para familias y jóvenes que viajan en grupo."
+    },
+    {
+        "id":3,
+        "crimg":"https://unsplash.com/es/fotos/RUvW1KGD9a4",
+        "category":"departamento",
+        "title":"Departamentos",
+        "description":"En un departamento podés sentirte como en casa y, al mismo tiempo, vivir como un local. Disfrutá la libertad de moverte como quieras, en cualquier momento del día. Coordiná con el anfitrión la entrega de la llave, y hacé del lugar, tu hogar. Los alojamientos suelen ser más económicos que los hoteles para estadías de varios días en una misma ciudad."
+    },
+    {
+        "id":4,
+        "crimg":"https://unsplash.com/es/fotos/b_79nOqf95I",
+        "category":"casa",
+        "title":"Casa",
+        "description":"La mayoría de las casas cuentan con un espacio interior significativo si lo comparas con otras unidades habitacionales que actualmente se encuentran en el mercado, cuyo objetivo es optimizar los ambientes. Además, las casas, por lo general, integran terrazas más amplias, patios y jardines que se transforman en un lugar para actividades infantiles al aire libre, encuentros entre amigos y una forma segura de disfrutar del aire fresco."
+    }
+]

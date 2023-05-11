@@ -1,0 +1,28 @@
+[2023-02-15 02:41:52] [INFO ] [AlojamientoService:31] Se creo el producto = La caseta-Departamento
+[2023-02-15 02:42:45] [INFO ] [AlojamientoService:49] Se cambio el Alojamiento = null
+[2023-02-15 02:42:57] [INFO ] [AlojamientoService:41] Se encontro el producto = La caseta-Departamento
+[2023-02-15 02:42:57] [INFO ] [AlojamientoService:56] Se elimino el Alojamiento = 1
+[2023-02-15 02:45:21] [INFO ] [AlojamientoService:31] Se creo el producto = la caseta-babf
+[2023-02-15 02:45:21] [INFO ] [BedAndBreakFast:39] Se creo el Bed And Break Fast la casetaAlojamiento N� null
+[2023-02-15 02:46:39] [INFO ] [BedAndBreakFast:56] Se actualizo el Bed And Break Fast = la caseta
+[2023-02-15 02:46:43] [INFO ] [BedAndBreakFast:56] Se actualizo el Bed And Break Fast = la caseta
+[2023-02-15 02:46:51] [INFO ] [BedAndBreakFast:56] Se actualizo el Bed And Break Fast = la caseta
+[2023-02-15 02:47:07] [INFO ] [BedAndBreakFast:56] Se actualizo el Bed And Break Fast = la caseta
+[2023-02-15 02:47:19] [INFO ] [BedAndBreakFast:56] Se actualizo el Bed And Break Fast = la caseta
+[2023-02-15 02:48:00] [INFO ] [BedAndBreakFast:56] Se actualizo el Bed And Break Fast = la casetaa
+[2023-02-15 02:48:08] [INFO ] [BedAndBreakFast:49] Se encontro el Bed And Break Fast 1 la caseta
+[2023-02-15 02:48:08] [INFO ] [BedAndBreakFast:66] Se elimino el Bed And Break Fast = 1
+[2023-02-15 02:48:38] [INFO ] [AlojamientoService:31] Se creo el producto = la caseta-departamento
+[2023-02-15 02:48:38] [INFO ] [DepartamentoService:38] Se creo el Departamento la casetaAlojamiento N� null
+[2023-02-15 02:49:44] [INFO ] [DepartamentoService:48] Se encontro el Departamento 1 la caseta
+[2023-02-15 02:49:44] [INFO ] [DepartamentoService:65] Se elimino el Departamento = 1
+[2023-02-15 02:50:09] [INFO ] [AlojamientoService:31] Se creo el producto = la caseta-hostel
+[2023-02-15 02:50:09] [INFO ] [HostelService:38] Se creo el Hostel la casetaAlojamiento N� null
+[2023-02-15 02:50:33] [INFO ] [HostelService:55] Se actualizo el Hostel = la casetaaa
+[2023-02-15 02:50:41] [INFO ] [HostelService:48] Se encontro el Hostel 1 la caseta
+[2023-02-15 02:50:41] [INFO ] [HostelService:65] Se elimino el Hostel = 1
+[2023-02-15 02:51:02] [INFO ] [AlojamientoService:31] Se creo el producto = la caseta-hotel
+[2023-02-15 02:51:02] [INFO ] [HotelService:38] Se creo el Hotel la casetaAlojamiento N� null
+[2023-02-15 02:51:18] [INFO ] [HotelService:55] Se actualizo el Hotel = la casetaaaaaa
+[2023-02-15 02:51:24] [INFO ] [HotelService:48] Se encontro el Hotel 1 la caseta
+[2023-02-15 02:51:24] [INFO ] [HotelService:65] Se elimino el Hotel = 1

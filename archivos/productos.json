@@ -1,0 +1,1046 @@
+[
+    {
+        "id": 1,
+        "name": "Montecatini Hotel",
+        "description":  "El Montecatini Hotel se encuentra en el centro de Villa Carlos Paz y ofrece piscina exterior de temporada con solárium. Hay conexión WiFi gratuita. Las habitaciones son sencillas y cómodas. TV por cable, escritorio y baño privado con bañera.",
+        "availability": true,
+        "city": {
+            "id": 1,
+            "name": "Villa Carlos Paz",
+            "province": "Córdoba",
+            "country": "Argentina"
+        },
+        "category": {
+            "id": 1,
+            "title": "Hoteles",
+            "description": "2 Hoteles",
+            "image":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Hotel.jpg"
+        },
+        "images": [
+            {
+                "id": 41,
+                "image": {
+                    "id": 61,
+                    "title":  "Montecatini Hotel",
+                    "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/0-h-VillaCPaz.jpg"
+                }
+            },
+            {
+                "id": 42,
+                "image": {
+                    "id": 62,
+                    "title":  "Montecatini Hotel",
+                    "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/0-h-VillaCPaz.jpg"
+                }
+            },
+            {
+                "id": 43,
+                "image": {
+                    "id": 63,
+                    "title":  "Montecatini Hotel",
+                    "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/0-h-VillaCPaz.jpg"
+                }
+            },
+            {
+                "id": 44,
+                "image": {
+                    "id": 64,
+                    "title":  "Montecatini Hotel",
+                    "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/0-h-VillaCPaz.jpg"
+                }
+            },
+            {
+                "id": 45,
+                "image": {
+                    "id": 65,
+                    "title":  "Montecatini Hotel",
+                    "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/0-h-VillaCPaz.jpg"
+                }
+            }
+        ],
+        "features": [
+            {
+                "id": 37,
+                "feature": {
+                    "id": 11,
+                    "name": "Wifi",
+                    "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+                }
+            },
+            {
+                "id": 38,
+                "feature": {
+                    "id": 12,
+                    "name": "Estacionamiento",
+                    "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Estacionamiento.svg"
+                }
+            },
+            {
+                "id": 39,
+                "feature": {
+                    "id": 14,
+                    "name": "Seguridad",
+                    "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Seguridad.svg"
+                }
+            },
+            {
+                "id": 40,
+                "feature": {
+                    "id": 15,
+                    "name": "Habitaciones libres de humo",
+                    "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-LibreDeHumo.svg"
+                }
+            },
+            {
+                "id": 41,
+                "feature": {
+                    "id": 16,
+                    "name": "Desayuno incluido",
+                    "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Desayuno.svg"
+                }
+            }
+        ],
+        "policies": [
+            {
+                "id": 0,
+                "policy": {
+                    "id": 0,
+                    "title": "Entrada",
+                    "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+                }
+            },
+            {
+                "id": 0,
+                "policy": {
+                    "id": 0,
+                    "title": "Mascotas",
+                    "description": "No se admiten."
+                }
+            },
+            {
+                "id": 0,
+                "policy": {
+                    "id": 0,
+                    "title":  "Menores",
+                    "description": "Se pueden hospedar niños de todas las edades."
+                }
+            }
+        ]
+    },
+
+
+
+    {
+    "id": 2,
+    "name": "Hotel Iguazú",
+    "description": "El Hotel Iguazú se encuentra en Puerto Iguazú, a 2,7 km del casino de Iguazú, y ofrece alojamiento con restaurante, aparcamiento privado gratuito y piscina al aire libre.",
+    "availability": true,
+    "city": {
+        "id": 2,
+        "name": "Puerto Iguazu",
+        "province": "Misiones",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 1,
+        "title": "Hoteles",
+        "description": "2 Hoteles",
+        "image":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Hotel.jpg"
+    },
+    "images": [
+        {
+            "id": 41,
+            "image": {
+                "id": 61,
+                "title": "Hotel Iguazú",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/1-h-Iguazu.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "image": {
+                "id": 62,
+                "title": "Hotel Iguazú",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/1-h-Iguazu.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "image": {
+                "id": 63,
+                "title": "Hotel Iguazú",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/1-h-Iguazu.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "image": {
+                "id": 64,
+                "title": "Hotel Iguazú",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/1-h-Iguazu.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "image": {
+                "id": 65,
+                "title": "Hotel Iguazú",
+                "url":"https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/1-h-Iguazu.jpg"
+            }
+        }
+    ],
+    "features": [
+        {
+            "id": 37,
+            "feature": {
+                "id": 11,
+                "name": "Wifi",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+            }
+        },
+        {
+            "id": 38,
+            "feature": {
+                "id": 17,
+                "name": "Adaptado para personas con movilidad reducida",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-AccesibleMovilidadReducida.svg"
+            }
+        },
+        {
+            "id": 39,
+            "feature": {
+                "id": 19,
+                "name": "Spa",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Spa.svg"
+            }
+        },
+        {
+            "id": 40,
+            "feature": {
+                "id": 21,
+                "name": "Restaurante",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Restaurante.svg"
+            }
+        },
+        {
+            "id": 41,
+            "feature": {
+                "id": 16,
+                "name": "Desayuno incluido",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Desayuno.svg"
+            }
+        }
+    ],
+    "policies": [
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Entrada",
+                "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Fiestas",
+                "description": "Los huéspedes no deben hacer ruido entre las 00:00 y las 07:00."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title":  "Tarjetas",
+                "description":  "acepta tarjetas y se reserva el derecho de preautorizar tu tarjeta antes de la entrada."
+            }
+        }
+    ]
+},
+
+
+
+{
+    "id": 3,
+    "name": "Hostel Playa Grande Güemes",
+    "description": "El Hostel Playa Grande Güemes se encuentra en Mar del Plata, a 2 km de la playa de La Perla y de la playa de Varese. Cuenta con servicio de conserjería y barbacoa; cocina y salón compartido y servicio de cambio de divisa.",
+    "availability": true,
+    "city": {
+        "id": 3,
+        "name": "Mar del Plata",
+        "province": "Buenos Aires",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 2,
+        "title": "Hostels",
+        "description":  "2 Hostels",
+        "image":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Hostel.jpg"
+    },
+    "images": [
+        {
+            "id": 41,
+            "image": {
+                "id": 61,
+                "title": "Hostel Playa Grande Güemes",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/2-hs-MardelPlata.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "image": {
+                "id": 62,
+                "title": "Hostel Playa Grande Güemes",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/2-hs-MardelPlata.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "image": {
+                "id": 63,
+                "title": "Hostel Playa Grande Güemes",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/2-hs-MardelPlata.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "image": {
+                "id": 64,
+                "title": "Hostel Playa Grande Güemes",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/2-hs-MardelPlata.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "image": {
+                "id": 65,
+                "title": "Hostel Playa Grande Güemes",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/2-hs-MardelPlata.jpg"
+            }
+        }
+    ],
+    "features": [
+        {
+            "id": 37,
+            "feature": {
+                "id": 11,
+                "name": "Wifi",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+            }
+        },
+        {
+            "id": 38,
+            "feature": {
+                "id": 13,
+                "name": "Servicios de limpieza",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-ServicioDeLimpieza.svg"
+            }
+        },
+        {
+            "id": 39,
+            "feature": {
+                "id": 19,
+                "name": "Spa",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Spa.svg"
+            }
+        },
+        {
+            "id": 40,
+            "feature": {
+                "id": 15,
+                "name": "Habitaciones libres de humo",
+                "icon":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-LibreDeHumo.svg"
+            }
+        },
+        {
+            "id": 41,
+            "feature": {
+                "id": 16,
+                "name": "Desayuno incluido",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Desayuno.svg"
+            }
+        }
+    ],
+    "policies": [
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Entrada",
+                "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Restricciones de edad",
+                "description": "Edad mínima para hacer el check-in: 18"
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title":  "Cancelación y pago por adelantado",
+                "description":  "Pueden variar según el tipo de alojamiento. Ingresá las fechas de tu estadía y consulta las condiciones de la habitación seleccionada."
+            }
+        }
+    ]
+},
+
+
+
+{
+    "id": 4,
+    "name": "Shanti Hostel",
+    "description": "El Shanti ofrece a sus huéspedes una cama individual en coloridos dormitorios compartidos con baño compartido. Asimismo, los huéspedes pueden utilizar de forma gratuita la cocina y el salón compartidos.",
+    "availability": true,
+    "city": {
+        "id": 4,
+        "name": "San Rafael",
+        "province": "Mendoza",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 2,
+        "title": "Hostels",
+        "description":  "2 Hostels",
+        "image":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Hostel.jpg"
+    },
+    "images": [
+        {
+            "id": 41,
+            "image": {
+                "id": 61,
+                "title": "Shanti Hostel",
+                "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/3-hs-SanRafael.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "image": {
+                "id": 62,
+                "title": "Shanti Hostel",
+                "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/3-hs-SanRafael.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "image": {
+                "id": 63,
+                "title": "Shanti Hostel",
+                "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/3-hs-SanRafael.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "image": {
+                "id": 64,
+                "title": "Shanti Hostel",
+                "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/3-hs-SanRafael.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "image": {
+                "id": 65,
+                "title": "Shanti Hostel",
+                "url":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/3-hs-SanRafael.jpg"
+            }
+        }
+    ],
+    "features": [
+        {
+            "id": 37,
+            "feature": {
+                "id": 11,
+                "name": "Wifi",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+            }
+        },
+        {
+            "id": 38,
+            "feature": {
+                "id": 12,
+                "name": "Estacionamiento",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Estacionamiento.svg"
+            }
+        },
+        {
+            "id": 39,
+            "feature": {
+                "id": 14,
+                "name": "Seguridad",
+                "icon":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Seguridad.svg"
+            }
+        },
+        {
+            "id": 40,
+            "feature": {
+                "id": 21,
+                "name": "Restaurante",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Restaurante.svg"
+            }
+        },
+        {
+            "id": 41,
+            "feature": {
+                "id": 18,
+                "name": "Pileta",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Pileta.svg"
+            }
+        }
+    ],
+    "policies": [
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Entrada",
+                "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Fiestas",
+                "description": "Los huéspedes no deben hacer ruido entre las 00:00 y las 07:00."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title":  "Tarjetas",
+                "description":  "acepta tarjetas y se reserva el derecho de preautorizar tu tarjeta antes de la entrada."
+            }
+        }
+    ]
+},
+
+
+
+{
+    "id": 5,
+    "name": "Vistas del Colorado",
+    "description":  "El Vistas del Colorado ofrece alojamiento con WiFi gratuita en Cafayate, en la provincia de Salta. Algunos alojamientos tienen TV de pantalla plana por cable, cocina totalmente equipada con nevera y baño privado con bidet y artículos de aseo gratuitos.",
+    "availability": true,
+    "city": {
+        "id": 5,
+        "name": "Cafayate",
+        "province": "Salta",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 3,
+        "title": "Departamentos",
+        "description": "2 Departamentos",
+        "image":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Departamento.jpg"
+    },
+    "images": [
+        {
+            "id": 41,
+            "image": {
+                "id": 61,
+                "title": "Vistas del Colorado",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/4-d-Cafayate.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "image": {
+                "id": 62,
+                "title": "Vistas del Colorado",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/4-d-Cafayate.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "image": {
+                "id": 63,
+                "title": "Vistas del Colorado",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/4-d-Cafayate.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "image": {
+                "id": 64,
+                "title": "Vistas del Colorado",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/4-d-Cafayate.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "image": {
+                "id": 65,
+                "title": "Vistas del Colorado",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/4-d-Cafayate.jpg"
+            }
+        }
+    ],
+    "features": [
+        {
+            "id": 37,
+            "feature": {
+                "id": 11,
+                "name": "Wifi",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+            }
+        },
+        {
+            "id": 38,
+            "feature": {
+                "id": 17,
+                "name": "Adaptado para personas con movilidad reducida",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-AccesibleMovilidadReducida.svg"
+            }
+        },
+        {
+            "id": 39,
+            "feature": {
+                "id": 19,
+                "name": "Spa",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Spa.svg"
+            }
+        },
+        {
+            "id": 40,
+            "feature": {
+                "id": 21,
+                "name": "Restaurante",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Restaurante.svg"
+            }
+        },
+        {
+            "id": 41,
+            "feature": {
+                "id": 16,
+                "name": "Desayuno incluido",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Desayuno.svg"
+            }
+        }
+    ],
+    "policies": [
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Entrada",
+                "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Fiestas",
+                "description": "Los huéspedes no deben hacer ruido entre las 00:00 y las 07:00."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title":  "Tarjetas",
+                "description":  "acepta tarjetas y se reserva el derecho de preautorizar tu tarjeta antes de la entrada."
+            }
+        }
+    ]
+},
+
+
+
+{
+    "id": 6,
+    "name": "Apartamentos Atlántida",
+    "description": "Los Apartamentos Atlantida se encuentran en Colón, en la región de Entre Ríos, y ofrecen alojamiento con aparcamiento privado gratuito. Algunos alojamientos tienen cocina con nevera.",
+    "availability": true,
+    "city": {
+        "id": 6,
+        "name": "Colón",
+        "province": "Entre Rios",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 3,
+        "title": "Departamentos",
+        "description": "2 Departamentos",
+        "image":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Departamento.jpg"
+    },
+    "images": [
+        {
+            "id": 41,
+            "image": {
+                "id": 61,
+                "title": "Apartamentos Atlántida",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/5-d-Colon.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "image": {
+                "id": 62,
+                "title": "Apartamentos Atlántida",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/5-d-Colon.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "image": {
+                "id": 63,
+                "title": "Apartamentos Atlántida",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/5-d-Colon.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "image": {
+                "id": 64,
+                "title": "Apartamentos Atlántida",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/5-d-Colon.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "image": {
+                "id": 65,
+                "title": "Apartamentos Atlántida",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/5-d-Colon.jpg"
+            }
+        }
+    ],
+    "features": [
+        {
+            "id": 37,
+            "feature": {
+                "id": 11,
+                "name": "Wifi",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+            }
+        },
+        {
+            "id": 38,
+            "feature": {
+                "id": 13,
+                "name": "Servicios de limpieza",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-ServicioDeLimpieza.svg"
+            }
+        },
+        {
+            "id": 39,
+            "feature": {
+                "id": 19,
+                "name": "Spa",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Spa.svg"
+            }
+        },
+        {
+            "id": 40,
+            "feature": {
+                "id": 15,
+                "name": "Habitaciones libres de humo",
+                "icon":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-LibreDeHumo.svg"
+            }
+        },
+        {
+            "id": 41,
+            "feature": {
+                "id": 16,
+                "name": "Desayuno incluido",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Desayuno.svg"
+            }
+        }
+    ],
+    "policies": [
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Entrada",
+                "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Restricciones de edad",
+                "description": "Edad mínima para hacer el check-in: 18"
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title":  "Cancelación y pago por adelantado",
+                "description":  "Pueden variar según el tipo de alojamiento. Ingresá las fechas de tu estadía y consulta las condiciones de la habitación seleccionada."
+            }
+        }
+    ]
+},
+
+
+
+{
+    "id": 7,
+    "name": "Aires de Sierra",
+    "description": "El Aires de Sierra se encuentra en Merlo y ofrece piscina al aire libre, centro de fitness, jardín, WiFi gratuita y vistas a la montaña. El establecimiento cuenta con piscina privada y aparcamiento privado gratuito.",
+    "availability": true,
+    "city": {
+        "id": 7,
+        "name": "Merlo",
+        "province": "San Luis",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 4,
+        "title": "Casas",
+        "description":  "2 Casas",
+        "image":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Casa.jpg"
+    },
+    "images": [
+        {
+            "id": 41,
+            "image": {
+                "id": 61,
+                "title": "Aires de Sierra",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/6-c-Merlo.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "image": {
+                "id": 62,
+                "title": "Aires de Sierra",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/6-c-Merlo.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "image": {
+                "id": 63,
+                "title": "Aires de Sierra",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/6-c-Merlo.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "image": {
+                "id": 64,
+                "title": "Aires de Sierra",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/6-c-Merlo.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "image": {
+                "id": 65,
+                "title": "Aires de Sierra",
+                "url": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/6-c-Merlo.jpg"
+            }
+        }
+    ],
+    "features": [
+        {
+            "id": 37,
+            "feature": {
+                "id": 11,
+                "name": "Wifi",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+            }
+        },
+        {
+            "id": 38,
+            "feature": {
+                "id": 13,
+                "name": "Servicios de limpieza",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-ServicioDeLimpieza.svg"
+            }
+        },
+        {
+            "id": 39,
+            "feature": {
+                "id": 18,
+                "name": "Pileta",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Pileta.svg"
+            }
+        },
+        {
+            "id": 40,
+            "feature": {
+                "id": 15,
+                "name": "Habitaciones libres de humo",
+                "icon":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-LibreDeHumo.svg"
+            }
+        },
+        {
+            "id": 41,
+            "feature": {
+                "id": 14,
+                "name": "Seguridad",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Seguridad.svg"
+            }
+        }
+    ],
+    "policies": [
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Entrada",
+                "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Restricciones de edad",
+                "description": "Edad mínima para hacer el check-in: 18"
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title":  "Cancelación y pago por adelantado",
+                "description":  "Pueden variar según el tipo de alojamiento. Ingresá las fechas de tu estadía y consulta las condiciones de la habitación seleccionada."
+            }
+        }
+    ]
+},
+
+
+
+{
+    "id": 8,
+    "name": "La Campiña",
+    "description": "La Campiña está a solo 12 km del centro de esquí de Catedral y cuenta con piscina climatizada de temporada (disponible en verano) y espléndidas vistas al jardín y al lago. Ofrece un alojamiento acogedor de estilo alpino con WiFi gratis.",
+    "availability": true,
+    "city": {
+        "id": 8,
+        "name": "San Caros de Bariloche",
+        "province": "Rio Negro",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 4,
+        "title": "Casas",
+        "description":  "2 Casas",
+        "image":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Category-Casa.jpg"
+    },
+    "images": [
+        {
+            "id": 41,
+            "image": {
+                "id": 61,
+                "title": "La Campiña",
+                "url":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/7-c-Bariloche.jpg"
+            }
+        },
+        {
+            "id": 42,
+            "image": {
+                "id": 62,
+                "title": "La Campiña",
+                "url":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/7-c-Bariloche.jpg"
+            }
+        },
+        {
+            "id": 43,
+            "image": {
+                "id": 63,
+                "title": "La Campiña",
+                "url":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/7-c-Bariloche.jpg"
+            }
+        },
+        {
+            "id": 44,
+            "image": {
+                "id": 64,
+                "title": "La Campiña",
+                "url":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/7-c-Bariloche.jpg"
+            }
+        },
+        {
+            "id": 45,
+            "image": {
+                "id": 65,
+                "title": "La Campiña",
+                "url":   "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/7-c-Bariloche.jpg"
+            }
+        }
+    ],
+    "features": [
+        {
+            "id": 37,
+            "feature": {
+                "id": 11,
+                "name": "Wifi",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Wifi.svg"
+            }
+        },
+        {
+            "id": 38,
+            "feature": {
+                "id": 13,
+                "name": "Servicios de limpieza",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-ServicioDeLimpieza.svg"
+            }
+        },
+        {
+            "id": 39,
+            "feature": {
+                "id": 18,
+                "name": "Pileta",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Pileta.svg"
+            }
+        },
+        {
+            "id": 40,
+            "feature": {
+                "id": 15,
+                "name": "Habitaciones libres de humo",
+                "icon":  "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-LibreDeHumo.svg"
+            }
+        },
+        {
+            "id": 41,
+            "feature": {
+                "id": 14,
+                "name": "Seguridad",
+                "icon": "https://grupo2-digitalbooking-img.s3.us-east-2.amazonaws.com/Feature-Seguridad.svg"
+            }
+        }
+    ],
+    "policies": [
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Entrada",
+                "description": "Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in."
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title": "Restricciones de edad",
+                "description": "Edad mínima para hacer el check-in: 18"
+            }
+        },
+        {
+            "id": 0,
+            "policy": {
+                "id": 0,
+                "title":  "Cancelación y pago por adelantado",
+                "description":  "Pueden variar según el tipo de alojamiento. Ingresá las fechas de tu estadía y consulta las condiciones de la habitación seleccionada."
+            }
+        }
+    ]
+}]

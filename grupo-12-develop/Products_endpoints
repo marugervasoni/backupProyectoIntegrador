@@ -1,0 +1,331 @@
+1) Filter product by city:
+Url: http://localhost:8080/products/city/1
+
+Response:
+
+{
+    "status": 200,
+    "message": "Get products by city successfully",
+    "data": [
+        {
+            "id": 1,
+            "city": {
+                "id": 1,
+                "name": "Medellin"
+            },
+            "politic": {
+                "id": 1,
+                "rule": {
+                    "id": 1,
+                    "title": null,
+                    "description": "r.description1"
+                },
+                "security": {
+                    "id": 1,
+                    "title": "s.title1",
+                    "description": "s.description1"
+                },
+                "cancellation": {
+                    "id": 1,
+                    "title": "c.title1",
+                    "description": "c.description1"
+                }
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "title": "image1",
+                    "url": "rule1"
+                },
+                {
+                    "id": 2,
+                    "title": "image2",
+                    "url": "rule2"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "title": "title1",
+                "description": "description1",
+                "imageUrl": "image_url1"
+            },
+            "characteristic": {
+                "id": 1,
+                "kitchen": true,
+                "tv": true,
+                "conditionAir": true,
+                "petsAllowed": true,
+                "freeParking": true,
+                "pool": true,
+                "wifi": true
+            },
+            "title": "product",
+            "description": "description",
+            "availability": "availability"
+        }
+    ]
+}
+
+2) Filter product by id:
+Url: http://localhost:8080/products/1
+
+Response:
+
+{
+    "status": 200,
+    "message": "Products by id found  successfully",
+    "data": {
+        "id": 1,
+        "city": {
+            "id": 1,
+            "name": "Medellin"
+        },
+        "politic": {
+            "id": 1,
+            "rule": {
+                "id": 1,
+                "title": null,
+                "description": "r.description1"
+            },
+            "security": {
+                "id": 1,
+                "title": "s.title1",
+                "description": "s.description1"
+            },
+            "cancellation": {
+                "id": 1,
+                "title": "c.title1",
+                "description": "c.description1"
+            }
+        },
+        "images": [
+            {
+                "id": 1,
+                "title": "image1",
+                "url": "rule1"
+            },
+            {
+                "id": 2,
+                "title": "image2",
+                "url": "rule2"
+            }
+        ],
+        "category": {
+            "id": 1,
+            "title": "title1",
+            "description": "description1",
+            "imageUrl": "image_url1"
+        },
+        "characteristic": {
+            "id": 1,
+            "kitchen": true,
+            "tv": true,
+            "conditionAir": true,
+            "petsAllowed": true,
+            "freeParking": true,
+            "pool": true,
+            "wifi": true
+        },
+        "title": "product",
+        "description": "description",
+        "availability": "availability"
+    }
+}
+3) Get All products:
+Url: http://localhost:8080/products/allproducts
+
+Response:
+
+{
+    "status": 200,
+    "message": "Get all products successfully",
+    "data": [
+        {
+            "id": 1,
+            "city": {
+                "id": 1,
+                "name": "Medellin"
+            },
+            "politic": {
+                "id": 1,
+                "rule": {
+                    "id": 1,
+                    "title": null,
+                    "description": "r.description1"
+                },
+                "security": {
+                    "id": 1,
+                    "title": "s.title1",
+                    "description": "s.description1"
+                },
+                "cancellation": {
+                    "id": 1,
+                    "title": "c.title1",
+                    "description": "c.description1"
+                }
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "title": "image1",
+                    "url": "rule1"
+                },
+                {
+                    "id": 2,
+                    "title": "image2",
+                    "url": "rule2"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "title": "title1",
+                "description": "description1",
+                "imageUrl": "image_url1"
+            },
+            "characteristic": {
+                "id": 1,
+                "kitchen": true,
+                "tv": true,
+                "conditionAir": true,
+                "petsAllowed": true,
+                "freeParking": true,
+                "pool": true,
+                "wifi": true
+            },
+            "title": "product",
+            "description": "description",
+            "availability": "availability"
+        }
+    ]
+}
+
+4) Get random products:
+Url: http://localhost:8080/products/random
+
+Response:
+
+{
+    "status": 200,
+    "message": "Get random products successfully",
+    "data": [
+        {
+            "id": 1,
+            "city": {
+                "id": 1,
+                "name": "Medellin"
+            },
+            "politic": {
+                "id": 1,
+                "rule": {
+                    "id": 1,
+                    "title": null,
+                    "description": "r.description1"
+                },
+                "security": {
+                    "id": 1,
+                    "title": "s.title1",
+                    "description": "s.description1"
+                },
+                "cancellation": {
+                    "id": 1,
+                    "title": "c.title1",
+                    "description": "c.description1"
+                }
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "title": "image1",
+                    "url": "rule1"
+                },
+                {
+                    "id": 2,
+                    "title": "image2",
+                    "url": "rule2"
+                }
+            ],
+            "category": {
+                "id": 1,
+                "title": "title1",
+                "description": "description1",
+                "imageUrl": "image_url1"
+            },
+            "characteristic": {
+                "id": 1,
+                "kitchen": true,
+                "tv": true,
+                "conditionAir": true,
+                "petsAllowed": true,
+                "freeParking": true,
+                "pool": true,
+                "wifi": true
+            },
+            "title": "product",
+            "description": "description",
+            "availability": "availability"
+        }
+    ]
+}
+
+
+5) Create Product:
+Url: http://localhost:8080/products/create
+
+Request:
+
+{
+        "city": {
+            "id": 1,
+            "name": "Medellin"
+        },
+        "politic": {
+            "id": 1,
+            "rule": {
+                "title": "r.title1",
+                "description": "r.description1"
+            },
+            "security": {
+                "title": "s.title1",
+                "description": "s.description1"
+            },
+            "cancellation": {
+                "title": "c.title1",
+                "description": "c.description1"
+            }
+        },
+        "images": [
+            {
+                "title": "image1",
+                "url": "rule1"
+            },
+            {
+                "title": "image2",
+                "url": "rule2"
+            }
+        ],
+        "category": {
+            "title": "title1",
+            "description": "description1",
+            "imageUrl": "image_url1"
+        },
+        "characteristic": {
+            "kitchen": true,
+            "tv": true,
+            "conditionAir": true,
+            "petsAllowed": true,
+            "freeParking": true,
+            "pool": true,
+            "wifi": true
+        },
+        "title": "product",
+        "description": "description",
+        "availability": "availability"
+}
+
+response: 
+
+{
+    "status": 200,
+    "message": "Product created successfully",
+    "data": null
+}

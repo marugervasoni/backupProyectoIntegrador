@@ -1,0 +1,26 @@
+[
+  {
+    "categoryid": "1",
+    "nameCategory": "Hoteles",
+    "description": "2568 Hoteles disponibles",
+    "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "categoryid": "2",
+    "nameCategory": "Hostels",
+    "description": "1650 Hosteles disponibles ",
+    "image_url": "https://images.unsplash.com/photo-1531917115039-473b5a388f40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "categoryid": "3",
+    "nameCategory": "Departamentos",
+    "description": "2568 Departamentos disponibles",
+    "image_url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "categoryid": "4",
+    "nameCategory": "Bed and breakfast",
+    "description": "1255 bed and breakfast disponibles",
+    "image_url": "https://images.unsplash.com/photo-1597776776684-61122dcf84e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=466&q=80"
+  }
+]

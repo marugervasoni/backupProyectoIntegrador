@@ -1,0 +1,96 @@
+Categories:
+
+1) findCategoryById:
+Url: http://localhost:8080/categories/1
+
+Response:
+
+{
+    "status": 200,
+    "message": "Category created successful",
+    "data": {
+        "id": 6,
+        "title": "Hotel",
+        "description": "Un hostel es un tipo de alojamiento económico en el que poder compartir experiencias sociales.",
+        "imageUrl": "https://unsplash.com/it/foto/WQJvWU_HZFo"
+    }
+}
+
+2) List categories: 
+Url: http://localhost:8080/categories:
+
+Response:
+
+{
+    "status": 200,
+    "message": "Get all categories successful",
+    "data": [
+        {
+            "id": 6,
+            "title": "Hotel",
+            "description": "Un hostel es un tipo de alojamiento económico en el que poder compartir experiencias sociales.",
+            "imageUrl": "https://unsplash.com/it/foto/WQJvWU_HZFo"
+        },
+        {
+            "id": 7,
+            "title": "Casas",
+            "description": "Un hotel es un establecimiento cuyo principal servicio es el hospedaje, ofreciendo a las personas cierto nivel de confort y seguridad durante sus estadías.",
+            "imageUrl": "https://unsplash.com/it/foto/rlwE8f8anOc"
+        }
+    ]
+}
+
+
+3) Create category: 
+Url: http://localhost:8080/categories/create
+
+Request:
+
+{
+    "title": "Hotel",
+    "description":"Un hostel es un tipo de alojamiento económico en el que poder compartir experiencias sociales.",
+    "imageUrl": "https://unsplash.com/it/foto/WQJvWU_HZFo"
+}
+
+Response:
+
+{
+    "status": 200,
+    "message": "Category created successfully",
+    "data": null
+}
+
+4) Update category:
+Url: http://localhost:8080/categories/update/1
+
+Request:
+
+{
+    "title": "Casas",
+    "description":"Un hotel es un establecimiento cuyo principal servicio es el hospedaje, ofreciendo a las personas cierto nivel de confort y seguridad durante sus estadías.",
+    "imageUrl": "https://unsplash.com/it/foto/rlwE8f8anOc"
+}
+
+Response:
+
+{
+    "status": 200,
+    "message": "Category updated successfully",
+    "data": null
+}
+
+5) Delete category by Id:
+
+Url: http://localhost:8080/categories/delete/1
+
+Response:
+
+{
+    "status": 200,
+    "message": "Category delete successful",
+    "data": null
+}
+
+
+
+

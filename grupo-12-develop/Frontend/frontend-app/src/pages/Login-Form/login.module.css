@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* margin-top: 15vh; */
+  align-items: center;
+  background-color: rgba(196, 196, 196, 0.1);
+  height: 100%;
+}
+
+.formulario {
+  min-height: calc(-280px + 100vh);
+  display: grid;
+  width: 70%;
+  justify-content: center;
+  grid-template-columns: 90%;
+  grid-template-rows: 20% 20% 20%;
+}
+
+.titulo {
+  margin: 20px 0;
+  color: #1dbeb4;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 10%;
+}
+
+.labelContainer {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 20% 40% 10%;
+  justify-content: center;
+  gap: 5px;
+}
+
+.label {
+  size: 20px;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  max-width: 450px;
+  min-width: 450px;
+  height: 80%;
+  max-height: 45px;
+  min-height: 35px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.22);
+  outline: none;
+  border: 0px solid black;
+}
+
+.boton {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  width: 80%;
+  max-width: 350px;
+  height: 40px;
+  color: #1dbeb4;
+  border: solid 2.5px var(--primary-color);
+  color: var(--primary-color);
+  margin: 2rem;
+}
+
+.boton:hover {
+  background-color: var(--colorBackgroundSecundario);
+  color: var(--colorTextoSecundario);
+}
+.botonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.errores {
+  color: red;
+  margin-bottom: 5px;
+}
+
+.errorGeneral {
+  color: red;
+  margin-bottom: 1%;
+}
+
+.registrarse {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (max-width: 650px) {
+  .input {
+    min-width: 330px;
+  }
+}

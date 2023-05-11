@@ -1,0 +1,161 @@
+.mainContent {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.content {
+  width: 65%;
+  padding: 20px 5%;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--gray-color);
+}
+.containerUserInfo {
+  background: #ffffff;
+  border: 1px solid #dfe4ea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 30px 0;
+  padding: 40px 30px;
+}
+.userInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 25px;
+}
+
+.labelContainer {
+  grid-column: span;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  background: #ffffff;
+  width: 85%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.22);
+  outline: none;
+  border: 0px solid black;
+}
+
+.containerReservationInfo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.reservationInfoContent {
+  width: 100%;
+}
+
+.reservationInfo {
+  padding: 30px 0;
+  height: 80%;
+  width: 30%;
+  background: #ffffff;
+
+  border: 1px solid #dfe4ea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.reservationInfo h2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: var(--gray-color);
+  margin: 0px 20px 20px;
+}
+
+.reservationInfoImg {
+  width: 100%;
+  height: 300px;
+}
+
+.reservationInfoCategory {
+  font-size: 0.95rem;
+  color: var(--gray-color);
+  opacity: 0.6;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--darkBlue-color);
+  margin-bottom: 10px;
+}
+
+.calendarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 2.5rem 2rem;
+  gap: 8%;
+}
+
+.container {
+  padding: 15px 20px;
+}
+
+.calendarSection {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--white-color);
+  height: 40%;
+  padding: 2rem;
+  border: 1px solid #dfe4ea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+@media (max-width: 1040px) {
+  .mainContent {
+    flex-direction: column;
+  }
+  .content {
+    width: 85%;
+    padding: 20px 5%;
+  }
+  .calendarContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .calendarSection {
+    width: 100%;
+    flex-direction: row;
+  }
+  .reservationInfo {
+    width: 65%;
+  }
+  .userInfo {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 770px) {
+  .calendarContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .calendarSection {
+    width: 100%;
+    flex-direction: column;
+  }
+}

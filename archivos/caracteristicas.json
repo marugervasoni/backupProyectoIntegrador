@@ -1,0 +1,46 @@
+[
+    {
+        "name":"Wifi",
+        "icon":"https://www.flaticon.es/icon-font-gratis/wifi_9254842?page=1&position=3&term=wifi&origin=search&related_id=9254842"
+    },
+    {
+        "name":"Estacionamiento",
+        "icon":"https://www.flaticon.es/icon-font-gratis/circulo-de-estacionamiento_9243885?page=1&position=23&term=estacionamiento&origin=search&related_id=9243885"
+    },
+    {
+        "name":"Servicios de limpieza",
+        "icon":"https://www.flaticon.es/icon-font-gratis/escoba_3916999?page=1&position=10&term=limpieza&origin=search&related_id=3916999"
+    },
+    {
+        "name":"Seguridad",
+        "icon":"https://www.flaticon.es/icon-font-gratis/bloqueo-de-tienda_9243904?page=1&position=75&term=seguridad&origin=search&related_id=9243904"
+    },
+    {
+        "name":"Habitaciones libres de humo",
+        "icon":"https://www.flaticon.es/icon-font-gratis/de-fumar_9856400?page=1&position=2&term=no+fumar&origin=search&related_id=9856400"
+    },
+    {
+        "name":"Desayuno incluido",
+        "icon":"https://www.flaticon.es/icon-font-gratis/cuerno_5074753?page=1&position=1&term=desayuno&origin=search&related_id=5074753"
+    },
+    {
+        "name":"Adaptado para personas con movilidad reducida",
+        "icon":"https://www.flaticon.es/icon-font-gratis/silla-de-ruedas_5069209?page=1&position=2&term=discapacidad&origin=search&related_id=5069209"
+    },
+    {
+        "name":"Pileta",
+        "icon":"https://www.flaticon.es/icon-font-gratis/nadador_6628067?page=1&position=4&term=piscina&origin=search&related_id=6628067"
+    },
+    {
+        "name":"Spa",
+        "icon":"https://www.flaticon.es/icon-font-gratis/flor-tulipan_5068944?page=1&position=4&term=flor-tulip%C3%A1n&origin=tag&related_id=5068944"
+    },
+    {
+        "name":"Recepción 24 horas",
+        "icon":"https://www.flaticon.es/icon-font-gratis/campana-de-conserjeria_9243844?page=1&position=4&term=recepcion&origin=search&related_id=9243844"
+    },
+    {
+        "name":"Restaurante",
+        "icon":"https://www.flaticon.es/icon-font-gratis/utensilios_5074696?term=restaurante&related_id=5074696"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Entrada",
+        "description":"Los huéspedes deberán presentar un documento de identidad con foto y una tarjeta de crédito al realizar el check-in.",
+        "icon":"https://www.flaticon.es/icon-font-gratis/bandeja-de-entrada_7434818?page=1&position=29&term=entrada&origin=search&related_id=7434818"
+    },
+    {
+        "name":"Mascotas",
+        "description":"No se admiten.",
+        "icon":"https://www.flaticon.es/icon-font-gratis/pata_5068966?page=1&position=7&term=huell&origin=search&related_id=5068966"
+    },
+    {
+        "name":"Menores",
+        "description":"Se pueden hospedar niños de todas las edades.",
+        "icon":"https://www.flaticon.es/icon-font-gratis/cabeza-de-nino_5069197?page=1&position=11&term=ni%C3%B1os&origin=search&related_id=5069197"
+    },
+    {
+        "name":"Fiestas",
+        "description":"Los huéspedes no deben hacer ruido entre las 00:00 y las 07:00.",
+        "icon":"https://www.flaticon.es/icon-font-gratis/vidrio-salud_5527882?page=1&position=3&term=fiestas&origin=search&related_id=5527882"
+    },
+    {
+        "name":"Tarjetas",
+        "description":"acepta tarjetas y se reserva el derecho de preautorizar tu tarjeta antes de la entrada.",
+        "icon":"https://www.flaticon.es/icon-font-gratis/tarjeta-de-credito_3916682?term=tarjetas&related_id=3916682"
+    },
+    {
+        "name":"Restricciones de edad",
+        "description":"Edad mínima para hacer el check-in: 18",
+        "icon":"https://www.flaticon.es/icono-gratis/plus-18-pelicula_83580?term=18&page=1&position=2&origin=search&related_id=83580"
+    },
+    {
+        "name":"Cancelación y pago por adelantado",
+        "description":"Pueden variar según el tipo de alojamiento. Ingresá las fechas de tu estadía y consulta las condiciones de la habitación seleccionada.",
+        "icon":"https://www.flaticon.es/icon-font-gratis/escudo-exclamacion_3914207?page=1&position=4&term=advertencia&origin=search&related_id=3914207"
+    }
+]

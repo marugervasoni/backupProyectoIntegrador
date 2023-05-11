@@ -1,0 +1,51 @@
+1) List All Categories:
+Url: http://localhost:8080/cities
+
+Response:
+
+{
+    "status": 200,
+    "message": "Get all cities successfully",
+    "data": [
+        {
+            "id": 1,
+            "name": "Buenos Aires",
+            "country": {
+                "id": 1,
+                "name": "Argentina"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Cordoba",
+            "country": {
+                "id": 1,
+                "name": "Argentina"
+            }
+        },
+        {
+            "id": 3,
+            "name": "La Plata",
+            "country": {
+                "id": 1,
+                "name": "Argentina"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Bogota",
+            "country": {
+                "id": 2,
+                "name": "Colombia"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Medellin",
+            "country": {
+                "id": 2,
+                "name": "Colombia"
+            }
+        }
+    ]
+}

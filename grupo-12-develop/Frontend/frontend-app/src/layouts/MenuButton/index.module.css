@@ -1,0 +1,13 @@
+.menuButton {
+  font-size: 3rem;
+}
+
+.menuButton:active {
+  transform: scale(1.1);
+}
+
+@media (min-width: 600px) {
+  .menuButton {
+    display: none;
+  }
+}

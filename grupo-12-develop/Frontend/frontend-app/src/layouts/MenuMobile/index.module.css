@@ -1,0 +1,41 @@
+.menu {
+  position: absolute;
+  width: 400px;
+  height: 100%;
+  top: 0;
+  right: 0px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px grey;
+  background-color: var(--white-color);
+}
+
+.closeButton {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 3rem;
+}
+.closeButton:active {
+  transform: scale(1.2);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.menuHeader {
+  position: relative;
+  display: flex;
+  height: 25vh;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 30px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.menuFooter {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: var(--darkBlue-color);
+}

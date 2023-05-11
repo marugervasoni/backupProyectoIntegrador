@@ -1,0 +1,21 @@
+#AWS properties
+cloud:
+  aws:
+    region:
+      static: sa-east-1
+    stack:
+      auto: false
+    credentials:
+      accessKey: AKIASDYGBXDRY7AZXGOI
+      secretKey: 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
+
+application:
+  bucket:
+    name: dh-pi-g9-2023
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
